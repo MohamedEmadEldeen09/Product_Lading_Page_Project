@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+</head>
+<body>
+    <header  id="header">
+        <figure>
+            <img src="logo.png" alt="Logo" id="header-img">
+        </figure> 
+        
+        <nav id="nav-bar">
+            <ul id="nav-list">
+                <li><a href="#Features" class="nav-link" >Features</a></li>
+                <li><a href="#How_It_Works" class="nav-link" >How It Works</a></li>
+                <li><a href="#Pricing" class="nav-link" >Pricing</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main class="Details">
+        <section class="section sec1" id="Contact" role="region" aria-labelledby="Contact">
+            <form action="https://www.freecodecamp.com/email-submit" id="form" method="post" >
+                <h1>Handcrafted, home-made masterpieces</h1>
+                <input type="email" placeholder="  Enter your email address" name="email" id="email">
+                <input type="submit" value="Get Started" id="submit">
+            </form>
+        </section>
+        <section class="section sec2" id="Features" role="region" aria-labelledby="Features">
+            <div class="image-con">
+                <i class="fa fa-3x fa-fire"></i>                               
+            </div>
+            <div class="content">               
+                <h1>Premium Materials</h1>
+                <p>Our trombones use the shiniest brass which is sourced 
+                    locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="image-con">
+                <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="content">
+                <h1>Fast Shipping</h1>
+                <p>We make sure you recieve your trombone as soon as we have finished 
+                    making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="image-con">
+                <i class="fa fa-3x fa-battery-full"></i>
+            </div>
+            <div class="content">
+                <h1> Quality Assurance</h1>                   
+                <p>For every purchase you make, we will ensure there are no damages 
+                    or faults and we will check and test the pitch of your instrument. </p>
+            </div>
+           
+        </section>
+        <section class="section sec3" id="How_It_Works" role="region" aria-labelledby="How_It_Works">
+            <video  controls   poster="vi.png" src="Movie.mp4" type="video/mp4" id="video">
+                This is a vedio if it does not work so your browser 
+                does not support it.
+            </video>
+        </section>
+
+        <section class="section sec4" id="Pricing" role="region" aria-labelledby="Pricing">
+
+             <div class="card">
+               <header><h2>TENOR TROMBONE</h2></header> 
+               <h2>$600</h2>
+                <p>Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.</p>
+              
+               <footer><button>Select</button></footer>
+             </div>
+
+             <div class="card">
+                <header><h2>TENOR TROMBONE</h2></header> 
+                <h2>$600</h2>
+                 <p>Lorem ipsum.
+                     Lorem ipsum.
+                     Lorem ipsum dolor.
+                     Lorem ipsum.</p>
+                
+                <footer><button>Select</button></footer>
+              </div>
+
+              <div class="card">
+                <header><h2>TENOR TROMBONE</h2></header> 
+               
+                    <h2>$600</h2>
+                 <p>Lorem ipsum.
+                     Lorem ipsum.
+                     Lorem ipsum dolor.
+                     Lorem ipsum.</p>
+                
+                <footer><button>Select</button></footer>
+              </div>
+              
+
+        </section>
+
+        <footer id="footer">
+            <ul>
+                <li><a href="#Contact">Privacy</a></li>
+                <li><a href="#Contact">Terms</a></li>
+                <li><a href="#Contact">Contact</a></li>               
+            </ul>
+            <p>Copyright 2016, Original Trombones</p>
+        </footer>
+    </main>
+</body>
+</html>
